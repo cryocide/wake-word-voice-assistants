@@ -223,6 +223,7 @@ micro_wake_word:
     - okay_nabu
     - hey_mycroft
     - hey_jarvis
+    - carolyn
   on_wake_word_detected:
     - voice_assistant.start:
         wake_word: !lambda return wake_word;
